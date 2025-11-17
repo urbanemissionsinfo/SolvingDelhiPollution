@@ -1,0 +1,18 @@
+[{"year":"2024-01-01","averagePM25":102, "drop":0},
+	{"year":"2025-01-01","averagePM25":102, "drop":0},
+ {"year":"2026-01-01","averagePM25":102, "drop":3},
+ {"year":"2027-01-01","averagePM25":102, "drop":3.8},
+ {"year":"2028-01-01","averagePM25":102, "drop":6.2},
+ {"year":"2029-01-01","averagePM25":102, "drop":10},
+ {"year":"2030-01-01","averagePM25":102, "drop":15},
+ {"year":"2031-01-01","averagePM25":102, "drop":21.2},
+ {"year":"2032-01-01","averagePM25":102, "drop":28.3},
+ {"year":"2033-01-01","averagePM25":102, "drop":36.3},
+ {"year":"2034-01-01","averagePM25":102, "drop":45},
+  {"year":"2035-01-01","averagePM25":102, "drop":54.3},
+  {"year":"2036-01-01","averagePM25":102, "drop":64},
+ {"year":"2037-01-01","averagePM25":102, "drop":74},
+ {"year":"2038-01-01","averagePM25":102, "drop":84.1},
+ {"year":"2039-01-01","averagePM25":102, "drop":94.2},
+ {"year":"2040-01-01","averagePM25":102, "drop":104.1}
+]
