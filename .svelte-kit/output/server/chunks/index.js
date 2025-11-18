@@ -845,7 +845,7 @@ export {
   COMMENT_NODE as C,
   DIRTY as D,
   ERROR_VALUE as E,
-  stringify as F,
+  bind_props as F,
   attr_class as G,
   HYDRATION_ERROR as H,
   INERT as I,
@@ -880,5 +880,5 @@ export {
   attr as w,
   attr_style as x,
   ensure_array_like as y,
-  bind_props as z
+  stringify as z
 };

@@ -143,9 +143,16 @@
 				/>
 			{/each}
 	</g>
+
 	<!-- National Ambient standard  -->
 	<line stroke-dasharray="4" style="stroke:green;stroke-width:2" x1={marginLeft - 6} x2={width} y1={yScale(40)} y2={yScale(40)}/>
-	<text x={marginLeft} y={yScale(41)} fill="black" font-size=1.5rem> National ambient standard</text>
+	<text x={xScale(new Date("2015-01-01"))} y={yScale(41)} fill="black" font-size=1.5rem> National ambient standard</text>
+  
+  <!-- MonteCarlo Band  -->
+  <svg>
+    <polygon points="{xScale(new Date("2025-01-01"))},{yScale(102)} {xScale(new Date("2040-01-01"))},{yScale(120)} {xScale(new Date("2040-01-01"))},{yScale(80)}" style="fill:#e7c887;" />
+  </svg>
+
 	<!--Line chart  -->
 	<path fill="none" stroke="purple" stroke-width="2.5" d={line(futureyears)} />
 	<!-- Square markers on the line -->
@@ -181,5 +188,11 @@
 	<text x="40" y="20" fill="black" font-size="20">
 		Future projections
 	</text>
-</g>
+  </g>
+  <g transform={`translate(${width - marginRight - 210}, ${marginTop+40})`}>
+    <!-- Square marker for the line -->
+    <rect width="24" height="24" fill="#e7c887" />
+    <!-- Label text -->
+    <text x="40" y="20" fill="black" font-size="20">Business-as-usual	</text>
+  </g>
 </svg>

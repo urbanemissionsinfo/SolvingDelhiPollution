@@ -20,7 +20,7 @@
   let elementX = null;
   let currentThumb = null;
   let holding = false;
-  let thumbHover = false;
+  let thumbHover = true;
   let keydownAcceleration = 0;
   let accelerationTimer = null;
 
@@ -193,7 +193,7 @@
         on:touchstart={onDragStart}
         on:mousedown={onDragStart}
         on:mouseover={() => (thumbHover = true)}
-        on:mouseout={() => (thumbHover = false)}
+        on:mouseout={() => (thumbHover = true)}
       >
         {#if holding || thumbHover}
           <div
@@ -289,7 +289,7 @@
   .range__tooltip {
     pointer-events: none;
     position: absolute;
-    top: -33px;
+    top: -3px;
     color: var(--tooltip-text, white);
     width: 38px;
     padding: 4px 0;
@@ -303,7 +303,7 @@
     content: "";
     display: block;
     position: absolute;
-    height: 7px;
+    height: 0px;
     width: 7px;
     background-color: var(--tooltip-bgcolor, #6185ff);
     bottom: -3px;
