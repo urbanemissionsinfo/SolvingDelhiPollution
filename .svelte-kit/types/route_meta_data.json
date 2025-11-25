@@ -3,5 +3,12 @@
 		"src/routes/+page.js",
 		"src/routes/+layout.js",
 		"src/routes/+layout.js"
+	],
+	"/Sources": [
+		"src/routes/Sources/+page.js",
+		"src/routes/Sources/+layout.js",
+		"src/routes/+layout.js",
+		"src/routes/Sources/+layout.js",
+		"src/routes/+layout.js"
 	]
 }

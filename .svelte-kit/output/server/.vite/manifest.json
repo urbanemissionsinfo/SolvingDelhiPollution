@@ -9,6 +9,10 @@
       "_environment.js"
     ]
   },
+  "_app.BV8JJ9pn.css": {
+    "file": "_app/immutable/assets/app.BV8JJ9pn.css",
+    "src": "_app.BV8JJ9pn.css"
+  },
   "_context.js": {
     "file": "chunks/context.js",
     "name": "context"
@@ -28,6 +32,10 @@
       "_utils2.js",
       "_equality.js"
     ]
+  },
+  "_favicon.js": {
+    "file": "chunks/favicon.js",
+    "name": "favicon"
   },
   "_index.js": {
     "file": "chunks/index.js",
@@ -109,7 +117,8 @@
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index.js"
+      "_index.js",
+      "_favicon.js"
     ]
   },
   "src/routes/+page.js": {
@@ -129,7 +138,45 @@
       "_context.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.Bq73bt5Z.css"
+      "_app/immutable/assets/_page.CslAERo9.css",
+      "_app/immutable/assets/app.BV8JJ9pn.css"
+    ]
+  },
+  "src/routes/Sources/+layout.js": {
+    "file": "entries/pages/Sources/_layout.js",
+    "name": "entries/pages/Sources/_layout",
+    "src": "src/routes/Sources/+layout.js",
+    "isEntry": true
+  },
+  "src/routes/Sources/+layout.svelte": {
+    "file": "entries/pages/Sources/_layout.svelte.js",
+    "name": "entries/pages/Sources/_layout.svelte",
+    "src": "src/routes/Sources/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_favicon.js"
+    ]
+  },
+  "src/routes/Sources/+page.js": {
+    "file": "entries/pages/Sources/_page.js",
+    "name": "entries/pages/Sources/_page",
+    "src": "src/routes/Sources/+page.js",
+    "isEntry": true
+  },
+  "src/routes/Sources/+page.svelte": {
+    "file": "entries/pages/Sources/_page.svelte.js",
+    "name": "entries/pages/Sources/_page.svelte",
+    "src": "src/routes/Sources/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_utils2.js",
+      "_context.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BXdQhE-w.css",
+      "_app/immutable/assets/app.BV8JJ9pn.css"
     ]
   }
 }
